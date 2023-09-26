@@ -1,0 +1,50 @@
+
+NEETS BE/node_modules
+NEETS BE/public/build
+NEETS BE/public/hot
+NEETS BE/public/storage
+NEETS BE/storage/*.key
+NEETS BE/vendor
+NEETS BE/.env
+NEETS BE/.env.backup
+NEETS BE/.env.production
+NEETS BE/.phpunit.result.cache
+NEETS BE/Homestead.json
+NEETS BE/Homestead.yaml
+NEETS BE/auth.json
+NEETS BE/npm-debug.log
+NEETS BE/yarn-error.log
+NEETS BE/.fleet
+NEETS BE/.idea
+NEETS BE/.vscode
+
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+NEETS FE/*~
+NEETS FE/*.sw[mnpcod]
+NEETS FE/.tmp
+NEETS FE/*.tmp
+NEETS FE/*.tmp.*
+NEETS FE/*.sublime-project
+NEETS FE/*.sublime-workspace
+NEETS FE/.DS_Store
+NEETS FE/Thumbs.db
+NEETS FE/UserInterfaceState.xcuserstate
+NEETS FE/$RECYCLE.BIN/
+NEETS FE/*.log
+NEETS FE/log.txt
+NEETS FE/npm-debug.log*
+
+NEETS FE/.idea
+NEETS FE/.ionic
+NEETS FE/.sass-cache
+NEETS FE/.sourcemaps
+NEETS FE/.versions
+NEETS FE/.vscode/*
+!NEETS FE/.vscode/extensions.json
+NEETS FE/coverage
+NEETS FE/dist
+NEETS FE/node_modules
+NEETS FE/platforms
+NEETS FE/plugins
+NEETS FE/www
