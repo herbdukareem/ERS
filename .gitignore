@@ -1,22 +1,4 @@
 
-NEETS-BE/node_modules
-NEETS-BE/public/build
-NEETS-BE/public/hot
-NEETS-BE/public/storage
-NEETS-BE/storage/*.key
-NEETS-BE/vendor
-NEETS-BE/.env
-NEETS-BE/.env.backup
-NEETS-BE/.env.production
-NEETS-BE/.phpunit.result.cache
-NEETS-BE/Homestead.json
-NEETS-BE/Homestead.yaml
-NEETS-BE/auth.json
-NEETS-BE/npm-debug.log
-NEETS-BE/yarn-error.log
-NEETS-BE/.fleet
-NEETS-BE/.idea
-NEETS-BE/.vscode
 
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore

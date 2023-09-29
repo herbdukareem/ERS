@@ -31,7 +31,7 @@
             </ion-item>
           </router-link>
 
-          <router-link  to='/profile'>
+          <router-link  @click="logout" to="#">
             <ion-item button>         
               <img style="margin-right: 29px !important;" class="menuIcon" src="@/assets/profile.svg" />                    
               <ion-label class="ms-1">Sign Out</ion-label>

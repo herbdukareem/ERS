@@ -26,7 +26,7 @@
                     <div class="col-12 mb-3">    
                         <div class="w-100">
                             <label for="password">Password</label>
-                            <InputText :class="{'p-invalid':required.password}" id="sex" v-model="user.password" aria-describedby="sex-help" />
+                            <InputText type="password" :class="{'p-invalid':required.password}" id="sex" v-model="user.password" aria-describedby="sex-help" />
                             <small class="d-none" id="sex-help">Enter your Password</small>
                         </div>
                     </div>

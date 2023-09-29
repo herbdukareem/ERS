@@ -46,9 +46,11 @@ app.use(PrimeVue);
 app.use(ConfirmationService);
 app.config.globalProperties.$globals = deepGlobals;
 app.use(pinia);
+
 router.isReady().then(() => {
   app.mount("#app");
 });
 
 window.baseUrl = `http://localhost:8001/api/`;
+//window.baseUrl= "https://ers.ngscha.ni.gov.ng/api/"
 window.version = ``;

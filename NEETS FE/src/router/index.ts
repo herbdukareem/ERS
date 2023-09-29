@@ -5,6 +5,9 @@ import DataPage from '../views/DataPage.vue'
 import Auth from '../views/auth/otp.vue'
 import IndexPage2 from "../views/IndexPage.vue";
 import IndexPage from "../App.vue";
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -41,6 +44,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
+  AOS.init(); 
   const publicRoutes = [
     "/auth",
   ];
