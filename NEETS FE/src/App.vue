@@ -40,7 +40,7 @@
         </ion-menu-toggle>
       </ion-content>
     </ion-menu>
-    <ion-page id="main-content">
+    <ion-page id="main-content" style="border-radius:5px;">
       <ion-loading trigger="open-loading" :isOpen="$globals.loading2" message="Loading..." duration="9000000"
             spinner="circles"></ion-loading>        
       <ion-header v-if="$globals.navBar">

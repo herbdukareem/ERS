@@ -136,6 +136,10 @@ export const post = async (resource, data, idempotency = "") => {
     if (response.data?.error || response?.status == 422) {            
       throw new Error(JSON.stringify(response));
     }
+
+    if (response.data?.error || response?.status == 400) {            
+      throw new Error(JSON.stringify(response));
+    }
     
     if(response.status == 401 || response.status ==302){
       const currentUrl = window.location.href;
